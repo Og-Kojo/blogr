@@ -1,0 +1,223 @@
+
+
+body{
+  font-family: 'Overpass', sans-serif;
+}
+
+
+.navbar {
+    height: 7rem;
+    position: relative;
+    bottom: 3rem;
+}
+
+.nav-link{
+  color:#fff;
+}
+
+
+/* First Section */
+
+.first-section{
+  width: 100%;
+  height: 500px;
+  background-image: url("./images/bg-pattern-intro-desktop.svg");
+  background-size: 170%;
+
+  background-repeat: no-repeat;
+  background-position: left ;
+  background-color: #FF8F70;
+  font-family: 'Overpass', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  border-bottom-left-radius: 3rem;
+  padding-left: 7rem;
+  padding-top: 3rem;
+  line-height: 2rem;
+
+}
+
+
+.Container-1{
+text-align: center;
+color: #fff;
+
+
+
+}
+
+
+ button{
+  border-radius: 2rem;
+  border-color: #fff;
+  padding: 7px;
+  background-color: #FF8F70;
+  margin-left: 1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+
+}
+ .white-btn{
+   background-color: #FFF;
+   color: #FF8F70;
+
+
+ }
+ .white-btn:hover{
+   background-color: #FF8F70;
+ }
+
+button:hover{
+  background-color: #fff;
+}
+
+.navbar {
+    background-color: #FF8F70 ;
+}
+
+
+/* second Section */
+
+.second-section{
+  text-align: center;
+}
+
+.Container-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+}
+
+.Container-2 img{
+  position: relative;
+  right: -15rem;
+  width: 55rem;
+  height: 50rem;
+}
+
+.firstC2{
+  position: relative;
+  left: 7rem;
+}
+
+.second-section h3{
+  position: relative;
+  top: 8rem;
+}
+
+
+/* Third Section */
+
+.Container-3{
+color: #fff;
+}
+
+
+.third-section{
+  position: relative;
+  bottom: -2.5rem;
+  background-image: url("./images/bg-pattern-circles.svg");
+
+  background-repeat: no-repeat ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  background-color: #3F4164;
+  border-top-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+
+}
+
+.bg-2{
+  position: relative;
+  bottom: -1.5rem;
+  right: 3rem;
+  height: 33rem;
+  width: 33rem;
+}
+
+
+
+
+
+/* Fourth Section */
+
+
+.fourth-section{
+
+  display: flex;
+  margin: 10rem;
+  width: 100%;
+
+}
+
+.Container-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.Container-4 img{
+  position: relative;
+  left: -24rem;
+  width: 60rem;
+  height: 50rem;
+
+}
+
+.firstC4{
+  position: relative;
+  right: 18rem;
+  line-height: 2rem;;
+}
+
+
+
+
+
+.fifth-section{
+background-color: #2C2D3F;
+width: 100%;
+height:500px;
+border-top-right-radius: 3rem;
+}
+
+
+.fifth-section{
+  display: flex;
+  justify-content: space-around;
+  padding-right: 5rem;
+  align-items: center;
+  text-align: left;
+  color: #fff;
+  line-height: 2rem;
+  width: 100%;
+
+}
+
+.fifth-section img{
+  position: relative;
+  bottom: 5rem;
+}
+
+ ul{
+   list-style-type: none;
+   list-style-position: inside;
+ }
+
+
+@media screen (max-width: 375px){
+
+
+  .Container-2 img{
+    height: 4rem;
+    width: 4rem;
+
+  }
+
+
+}
